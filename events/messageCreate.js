@@ -1,6 +1,19 @@
 module.exports = (client, message) => {
     if (message.author.bot || message.channel.type === 'dm') return;
 
+    // unique message
+    if(message.content.includes('หนุ่ย')) {
+        message.channel.send("**มึงก็พูดแรงเกิ้น !!** :face_with_symbols_over_mouth:");
+        // message.channel.send("Mueng kor pood rang kern", { tts: true });
+        
+    } else if(message.content.includes('ตู่')) {
+        message.channel.send("**เห้อ** :cry:");
+
+    } else if(message.content.includes('เหี้ยไร')) {
+        message.channel.send("**ไม่น่ารักเลยนะเด็ก ๆ พูดเพราะ ๆ สิคะ** :cry:");
+
+    }
+
     const prefix = client.config.app.px;
 
     if (message.content.indexOf(prefix) !== 0) return;
