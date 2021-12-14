@@ -1,8 +1,9 @@
+const token = process.env['TOKEN'];
 module.exports = {
     app: {
         px: '-',
-        token: 'ODk0MjM0MTg2Njg3MzQ0Njkx.YVnCfA.dTJn_9NZVHriCH2E4P2fY9fkQmc',
-        playing: 'by NaNui ❤️'
+        token: token,
+        playing: 'by DJ Sona ❤️'
     },
 
     opt: {
