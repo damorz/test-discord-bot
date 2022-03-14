@@ -9,9 +9,11 @@ module.exports = (client, message) => {
     } else if(message.content.includes('ตู่')) {
         message.channel.send("**เห้อ** :cry:");
 
-    } else if(message.content.includes('เหี้ยไร')) {
+    } else if(message.content.includes('เหี้ย')) {
         message.channel.send("**ไม่น่ารักเลยนะเด็ก ๆ พูดเพราะ ๆ สิคะ** :cry:");
-
+ 
+    } else if(message.content.includes('วาโลขาด1')) {
+        message.channel.send("**เกมโง่ ๆ เหมาะกันคนโง่ ๆ แบบพวกมึงเนอะ อะหยอก ๆ น้า");
     }
 
     const prefix = client.config.app.px;
