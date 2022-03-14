@@ -14,9 +14,7 @@ module.exports = (client, message) => {
  
     } else if(message.content.includes('วาโลขาด1')) {
         message.channel.send("**เกมโง่ ๆ เหมาะกันคนโง่ ๆ แบบพวกมึงเนอะ อะหยอก ๆ น้า**");
-    } else if(message.content.includes('แอล')) {
-        message.channel.send("**ยัง ยังเล่นอยู่อีกเกมดี ๆ**");
-    }
+    } 
 
     const prefix = client.config.app.px;
 
